@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 1em;
+}
+nav a:hover {
+  color: #ffbb33;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  color: white;
+  padding: 2em;
+}
+
+footer span a {
+  font-size: 1.5em;
+  color: white;
+  padding: 1em;
+}
+
+footer span a:hover {
+  color: #ffbb33;  
+}
+
+footer p {
+  margin-top: 2em;
+}
